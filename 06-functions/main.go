@@ -34,7 +34,7 @@ func two(number int) (int, bool) {
 }
 
 // En go se pueden crear una funcion que reciba un parametro sin especificar cuantos sean
-// es decir el parametro number puede ser, 1,2,3 o n numeros, eso se lo consigue con los 3 puntos ...
+// es decir el parametro number puede ser variable, 1,2,3 o n numeros, eso se lo consigue con los 3 puntos ...
 func Calculo(number ...int) int {
 	total := 0
 
